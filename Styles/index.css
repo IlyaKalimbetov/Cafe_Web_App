@@ -263,8 +263,16 @@ header {
     color: #bd8951;
 }
 
+.history_block {
+    margin-top: 80px;
+}
+
+.hisory_holder {
+    display: flex;
+}
+
 .cafe_history {
-    width: 50%;
+    width: 50%;  
 }
 
 .history_title {
@@ -301,8 +309,8 @@ header {
 }
 
 .number_item {
+    font-family: "Montserrat", sans-serif;
     margin-right: 60px;
-
     font-size: 40px;
     color: #D67E34;
 }
@@ -312,4 +320,87 @@ header {
     display: block;
     font-size: 25px;
     color: #000;    
+}
+
+.photo_history {
+    position: relative;
+}
+
+#first_img {
+    position: absolute;
+    right: 0;
+    z-index: 0;
+    top: 74px;
+    left: 54px;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.10);
+}
+
+#second_img {
+    position: absolute;
+    right: -600px;
+    top: 35px;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.10);
+}
+
+#third_img {
+    position: absolute;
+    z-index: 100;
+    top: 214px;
+    left: 211px;
+}
+
+.baner {
+    background-image: url(../Img/bg.svg);
+    height: 250px;
+    margin-top: 130px;
+}
+
+.baner_holer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.baner_text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    color: #D67E34;
+}
+
+.baner_under_text {
+    margin-top: 15px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.right a {
+    background: #FF7400;
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    padding: 14px 18px;
+    border-radius: 10px;
+    transition: 0.45s;
+}
+
+.right a:hover {
+    background:
+        linear-gradient(to right, #FF7400 4px, transparent 4px) 0 0,
+        linear-gradient(to right, #FF7400 4px, transparent 4px) 0 100%,
+        linear-gradient(to left, #FF7400 4px, transparent 4px) 100% 0,
+        linear-gradient(to left, #FF7400 4px, transparent 4px) 100% 100%,
+        linear-gradient(to bottom, #FF7400 4px, transparent 4px) 0 0,
+        linear-gradient(to bottom, #FF7400 4px, transparent 4px) 100% 0,
+        linear-gradient(to top, #FF7400 4px, transparent 4px) 0 100%,
+        linear-gradient(to top, #FF7400 4px, transparent 4px) 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
 }
