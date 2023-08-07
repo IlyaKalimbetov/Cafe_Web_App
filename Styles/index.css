@@ -484,10 +484,6 @@ header {
     margin-top: 15px; 
 }
 
-.hamb_under_text:first-child {
-    font-weight: ;
-}
-
 .hamb_under_text_item {
     text-align: center;
     font-family: "Montserrat", sans-serif;
@@ -519,4 +515,37 @@ header {
     background: transparent;
     border: 1.5px #D67E34 solid;
     color: #D67E34;
+}
+
+.review_block {
+    background: #E5E5E5;
+}
+
+.review_holder {
+    padding-top: 70px;
+    margin: 0 200px;
+}
+
+.review_text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.review_photo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.customer {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.customer_name {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: center;
 }
